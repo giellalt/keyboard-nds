@@ -1,0 +1,755 @@
+displayNames:
+  se: Vuollesaksigiella (Vuolleeatnamat)
+  en: Low Saxon (Netherlands)
+  fi: Alasaksi (Alankomaat)
+  'no': Nedersaksisk (Nederland)
+  da: Nedersaksisk (Nederlandene)
+  sv: Nedersaxiska (Nederländerna)
+  nds: Neddersaskys (Nederland)
+  nl: Nedersaksisch (Nederland)
+  de: Neddersassisch/Niederdeutsch (Niederlande)
+  fy: Nedersaksysk (Nederlân)
+  fr: Bas saxon (Pays-Bas)
+  es: Bajo sajón (Países Bajos)
+  it: Basso sassone (Paesi Bassi)
+  ru: Нижнесаксонский язык (Нидерланды)
+  tr: Aşağı saksonca (Hollanda)
+  jp: 低地ザクセン語（オランダ）
+modes:
+  mac:
+    default: |
+      ` 1 2 3 4 5 6 7 8 9 0 - =
+      q w e r t y u i o p ü ä
+      a s d f g h j k l ö å \
+      " z x c v b n m , . /
+    shift: |
+      ~ ! @ # $ % ˆ & * ( ) _ +
+      Q W E R T Y U I O P Ü Ä 
+      A S D F G H J K L Ö Å :
+      | Z X C V B N M ; ' ?
+    caps: |
+      ` 1 2 3 4 5 6 7 8 9 0 - =
+      Q W E R T Y U I O P Ü Ä
+      A S D F G H J K L Ö Å \
+      " Z X C V B N M , . /
+    alt: |
+      ´ © ™ £ € ˆ § | [ ] ˝ ± \u{301}
+      q w é ˇ ŧ þ ˀ ʼ œ ˙ ˚ ¨
+      ¯ ß ð ƒ . ˛ ˘ ˜ - ø æ @
+      < ÷ x ¸ ‹ › ‘ ’ ‚ … –
+    alt+shift: |
+      § ¡ ® ¥ ¢ ° ¶ \ { } ¤ ¿ \u{300}
+      Q W É \u{30C} Ŧ Þ \u{309} \u{31B} Œ \u{307} \u{30A} \u{308}
+      № ẞ Ð ʔ \u{323} \u{328} \u{306} \u{303} \u{335} Ø Æ *
+      > ⁄ X \u{327} « » “ ” „ · —
+    caps+alt: |
+      ´ © ™ £ € ˆ § | [ ] ˝ ± \u{301}
+      Q W É ˇ Ŧ Þ ˀ ʼ Œ ˙ ˚ ¨
+      ¯ ẞ Ð ƒ . ˛ ˘ ˜ - Ø Æ @
+      < ÷ X ¸ ‹ › ‘ ’ ‚ … –
+    ctrl: |
+      0 1 2 3 4 5 6 7 8 9 0 \u{1F} =
+      \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
+      \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
+      ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
+    cmd+alt: |
+      € © ™ £ € § \u{0} | [ ] ≈ ± `
+      • , é \u{0} ŧ µ ü ı œ þ ˙ ˜
+      ¯ ß ð ƒ \u{0} ħ ˝ ª ł ø æ '
+      ≤ ÷ đ ¸ ‹ › ‘ ’ ‚ … –
+  mobile:
+    default: |
+      q w e r t y u i o p ü
+      a s d f g h j k l ö å
+         ä z x c v b n m 
+    shift: |
+      Q W E R T Y U I O P Ü
+      A S D F G H J K L Ö Å
+         Ä Z X C V B N M 
+  win:
+    default: |
+      ` 1 2 3 4 5 6 7 8 9 0 - =
+        q w e r t y u i o p ü ä
+        a s d f g h j k l ö å \
+      " z x c v b n m , . /
+    shift: |
+      ~ ! @ # $ % ^ & * ( ) _ +
+        Q W E R T Y U I O P Ü Ä
+        A S D F G H J K L Ö Å :
+      | Z X C V B N M ; ' ?
+    caps: |
+      ` 1 2 3 4 5 6 7 8 9 0 - =
+        Q W E R T Y U I O P Ü Ä
+        A S D F G H J K L Ö Å \
+      " Z X C V B N M , . /
+    caps+shift: "~ ! @ # $ % ^ & * ( ) _ +\n  q w e r t y u i o p ü ä\n  a s d f g h j k l ö å :\n| z x c v b n m ; ' ?\t\n"
+    alt: |
+      š ¡ ² ³ ¤ € ¼ ½ ¾ ‘ ’ ¥ ×
+        № ʔ é ŧ þ ž ú í ó ‚ « »
+        á ß ð ˝ ˙ ˘ ˚ ˇ ø ¶ ´ '
+      č æ © đ ǯ ʒ ñ µ ç œ ¿
+    alt+shift: |
+      Š ¹ « » £ { } [ ] < > ± ÷
+        ƒ ˀ É Ŧ Þ Ž Ú Í Ó “ ” „
+        Á ẞ Ð ˉ - . ˛ ¸ Ø ° ¨ ¦
+      Č Æ § ¢ Ǯ Ʒ Ñ ™ Ç Œ ®
+    ctrl: |
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+transforms:
+  '-':
+    ' ': '-'
+    b: ƀ
+    d: đ
+    D: Đ
+    g: ǥ
+    G: Ǥ
+    h: ħ
+    H: Ħ
+    i: ɨ
+    I: Ɨ
+    l: ł
+    L: Ł
+    o: ɵ
+    O: Ɵ
+    t: ŧ
+    T: Ŧ
+    u: ʉ
+    z: ƶ
+    Z: Ƶ
+  ',':
+    ' ': ','
+    s: ş
+    S: Ş
+    t: ţ
+    T: Ţ
+    c: ç
+    C: Ç
+    d: ḑ
+    D: Ḑ
+    e: ȩ
+    E: Ȩ
+    g: ģ
+    G: Ģ
+    h: ḩ
+    H: Ḩ
+    k: ķ
+    K: Ķ
+    l: ļ
+    L: Ļ
+    'n': ņ
+    'N': Ņ
+    r: ŗ
+    R: Ŗ
+  .:
+    ' ': .
+    a: ạ
+    A: Ạ
+    b: ḅ
+    B: Ḅ
+    d: ḍ
+    D: Ḍ
+    e: ẹ
+    E: Ẹ
+    h: ḥ
+    H: Ḥ
+    i: ị
+    I: Ị
+    k: ḳ
+    K: Ḳ
+    l: ḷ
+    L: Ḷ
+    m: ṃ
+    M: Ṃ
+    'n': ṇ
+    'N': Ṇ
+    o: ọ
+    O: Ọ
+    r: ṛ
+    R: Ṛ
+    s: ṣ
+    S: Ṣ
+    t: ṭ
+    T: Ṭ
+    u: ụ
+    U: Ụ
+    v: ṿ
+    V: Ṿ
+    w: ẉ
+    W: Ẉ
+    'y': ỵ
+    'Y': Ỵ
+    z: ẓ
+    Z: Ẓ
+  '`':
+    ' ': '`'
+    a: à
+    A: À
+    e: è
+    E: È
+    i: ì
+    I: Ì
+    'n': ǹ
+    'N': Ǹ
+    o: ò
+    O: Ò
+    u: ù
+    U: Ù
+    v: ǜ
+    V: Ǜ
+    w: ẁ
+    W: Ẁ
+    'y': ỳ
+    'Y': Ỳ
+    ü: ǜ
+    Ü: Ǜ
+  ´:
+    ' ': ´
+    a: á
+    A: Á
+    å: ǻ
+    Å: Ǻ
+    æ: ǽ
+    Æ: Ǽ
+    c: ć
+    C: Ć
+    e: é
+    E: É
+    g: ǵ
+    G: Ǵ
+    i: í
+    I: Í
+    k: ḱ
+    K: Ḱ
+    l: ĺ
+    L: Ĺ
+    m: ḿ
+    M: Ḿ
+    'n': ń
+    'N': Ń
+    o: ó
+    O: Ó
+    ø: ǿ
+    Ø: Ǿ
+    p: ṕ
+    P: Ṕ
+    r: ŕ
+    R: Ŕ
+    s: ś
+    S: Ś
+    u: ú
+    U: Ú
+    v: ǘ
+    V: Ǘ
+    w: ẃ
+    W: Ẃ
+    'y': ý
+    'Y': Ý
+    z: ź
+    Z: Ź
+    ü: ǘ
+    Ü: Ǘ
+  ˜:
+    ' ': '~'
+    a: ã
+    A: Ã
+    e: ẽ
+    E: Ẽ
+    i: ĩ
+    I: Ĩ
+    'n': ñ
+    'N': Ñ
+    o: õ
+    O: Õ
+    u: ũ
+    U: Ũ
+    v: ṽ
+    V: Ṽ
+    'y': ỹ
+    'Y': Ỹ
+  ¯:
+    ' ': ¯
+    a: ā
+    A: Ā
+    æ: ǣ
+    Æ: Ǣ
+    e: ē
+    E: Ē
+    g: ḡ
+    G: Ḡ
+    i: ī
+    I: Ī
+    l: 'l\u{323}\u{304}'
+    L: 'L\u{323}\u{304}'
+    o: ō
+    O: Ō
+    r: 'r\u{323}\u{304}'
+    R: 'R\u{323}\u{304}'
+    s: 's\u{304}'
+    S: 'S\u{304}'
+    u: ū
+    U: Ū
+    v: ǖ
+    V: Ǖ
+    'y': ȳ
+    'Y': Ȳ
+    z: 'z\u{304}'
+    Z: 'Z\u{304}'
+  ˘:
+    ' ': ˘
+    a: ă
+    A: Ă
+    e: ĕ
+    E: Ĕ
+    g: ğ
+    G: Ğ
+    h: ḫ
+    H: Ḫ
+    i: ĭ
+    I: Ĭ
+    o: ŏ
+    O: Ŏ
+    u: ŭ
+    U: Ŭ
+  ˙:
+    ' ': ˙
+    a: ȧ
+    A: Ȧ
+    b: ḃ
+    B: Ḃ
+    c: ċ
+    C: Ċ
+    d: ḋ
+    D: Ḋ
+    e: ė
+    E: Ė
+    f: ḟ
+    F: Ḟ
+    g: ġ
+    G: Ġ
+    h: ḣ
+    H: Ḣ
+    i: ı
+    I: İ
+    m: ṁ
+    M: Ṁ
+    'n': ṅ
+    'N': Ṅ
+    o: ȯ
+    O: Ȯ
+    p: ṗ
+    P: Ṗ
+    r: ṙ
+    R: Ṙ
+    s: ṡ
+    S: Ṡ
+    t: ṫ
+    T: Ṫ
+    w: ẇ
+    W: Ẇ
+    x: ẋ
+    X: Ẋ
+    'y': ẏ
+    'Y': Ẏ
+    z: ż
+    Z: Ż
+    ś: ṥ
+    Ś: Ṥ
+    š: ṧ
+    Š: Ṧ
+  ¨:
+    ' ': ¨
+    a: ä
+    A: Ä
+    e: ë
+    E: Ë
+    h: ḧ
+    H: Ḧ
+    i: ï
+    I: Ï
+    o: ö
+    O: Ö
+    t: ẗ
+    T: 'T\u{308}'
+    u: ü
+    U: Ü
+    w: ẅ
+    W: Ẅ
+    x: ẍ
+    X: Ẍ
+    'y': ÿ
+    'Y': Ÿ
+  ˚:
+    ' ': ˚
+    a: å
+    A: Å
+    e: 'e\u{30A}'
+    E: 'E\u{30A}'
+    o: 'o\u{30A}'
+    O: 'O\u{30A}'
+    u: ů
+    U: Ů
+    w: ẘ
+    W: W̊
+    'y': ẙ
+    'Y': Y̊
+  ˝:
+    ' ': ˝
+    o: ő
+    O: Ő
+    u: ű
+    U: Ű
+  ¸:
+    ' ': ¸
+    c: ç
+    C: Ç
+    d: ḑ
+    D: Ḑ
+    e: ȩ
+    E: Ȩ
+    g: ģ
+    G: Ģ
+    h: ḩ
+    H: Ḩ
+    k: ķ
+    K: Ķ
+    l: ļ
+    L: Ļ
+    'n': ņ
+    'N': Ņ
+    r: ŗ
+    R: Ŗ
+    s: ș
+    S: Ș
+    š: ș
+    Š: Ș
+    t: ț
+    T: Ț
+    ŧ: ț
+    Ŧ: Ț
+    z: z̩
+    Z: Z̩
+  ˛:
+    ' ': ˛
+    a: ą
+    A: Ą
+    e: ę
+    E: Ę
+    i: į
+    I: Į
+    o: ǫ
+    O: Ǫ
+    u: ų
+    U: Ų
+  ˆ:
+    ' ': ^
+    a: â
+    A: Â
+    c: ĉ
+    C: Ĉ
+    e: ê
+    E: Ê
+    g: ĝ
+    G: Ĝ
+    h: ĥ
+    H: Ĥ
+    i: î
+    I: Î
+    j: ĵ
+    J: Ĵ
+    m: 'm\u{302}'
+    M: 'M\u{302}'
+    'n': 'n\u{302}'
+    'N': 'N\u{302}'
+    o: ô
+    O: Ô
+    s: ŝ
+    S: Ŝ
+    u: û
+    U: Û
+    w: ŵ
+    W: Ŵ
+    'y': ŷ
+    'Y': Ŷ
+    z: ẑ
+    Z: Ẑ
+  ˇ:
+    ' ': ˇ
+    a: ǎ
+    A: Ǎ
+    c: č
+    C: Č
+    d: ď
+    D: Ď
+    e: ě
+    E: Ě
+    g: ǧ
+    G: Ǧ
+    h: ȟ
+    H: Ȟ
+    i: ǐ
+    I: Ǐ
+    j: ǰ
+    J: 'J\u{30C}'
+    k: ǩ
+    K: Ǩ
+    l: ľ
+    L: Ľ
+    'n': ň
+    'N': Ň
+    o: ǒ
+    O: Ǒ
+    r: ř
+    R: Ř
+    s: š
+    S: Š
+    t: ť
+    T: Ť
+    u: ǔ
+    U: Ǔ
+    v: ǚ
+    V: Ǚ
+    x: 'ʒ\u{30C}'
+    X: 'Ʒ\u{30C}'
+    z: ž
+    Z: Ž
+    ü: ǚ
+    Ü: Ǚ
+    ʒ: ǯ
+    Ʒ: Ǯ
+  ƒ:
+    '0': °
+    ' ': ƒ
+    (: ≤
+    ): ≥
+    q: •
+  №:
+    '2': ƨ
+    '3': ɛ
+    '5': ƽ
+    '6': ƅ
+    '7': ⁊
+    ' ': №
+    a: ə
+    A: Ə
+    c: ɔ
+    C: Ɔ
+    e: ǝ
+    E: Ǝ
+    g: ɣ
+    G: Ɣ
+    h: ƕ
+    H: Ƕ
+    j: ƞ
+    J: Ƞ
+    k: ĸ
+    K: K’
+    m: ɯ
+    M: Ɯ
+    'n': ŋ
+    'N': Ŋ
+    q: ƣ
+    Q: Ƣ
+    r: ʀ
+    R: Ʀ
+    s: ſ
+    u: ʊ
+    U: Ʊ
+    v: ʌ
+    w: ƿ
+    W: Ƿ
+    'y': ȝ
+    'Y': Ȝ
+    z: ʒ
+    Z: Ʒ
+  ʔ:
+    ' ': ʔ
+    b: ɓ
+    B: Ɓ
+    c: ƈ
+    C: Ƈ
+    d: ɗ
+    D: Ɗ
+    f: ƒ
+    F: Ƒ
+    g: ɠ
+    G: Ɠ
+    h: ɦ
+    i: ɩ
+    I: Ɩ
+    k: ƙ
+    K: Ƙ
+    'n': ɲ
+    'N': Ɲ
+    p: ƥ
+    P: Ƥ
+    q: ʠ
+    r: ʈ
+    R: Ʈ
+    s: ʃ
+    S: Ʃ
+    t: ƭ
+    T: Ƭ
+    u: ʋ
+    U: Ʋ
+    x: ɖ
+    X: Ɖ
+    'y': ƴ
+    'Y': Ƴ
+    z: ȥ
+    Z: Ȥ
+  ˀ:
+    ' ': ˀ
+    a: ả
+    A: Ả
+    e: ẻ
+    E: Ẻ
+    i: ỉ
+    I: Ỉ
+    o: ỏ
+    O: Ỏ
+    u: ủ
+    U: Ủ
+    'y': ỷ
+    'Y': Ỷ
+  ʼ:
+    ' ': ʼ
+    o: ơ
+    O: Ơ
+    u: ư
+    U: Ư
+  '~':
+    ' ': '~'
+    a: ã
+    A: Ã
+    i: ĩ
+    I: Ĩ
+    'n': ñ
+    'N': Ñ
+    o: õ
+    O: Õ
+    u: ũ
+    U: Ũ
+  ^:
+    ' ': ^
+    a: â
+    A: Â
+    c: ĉ
+    C: Ĉ
+    e: ê
+    E: Ê
+    g: ĝ
+    G: Ĝ
+    h: ĥ
+    H: Ĥ
+    i: î
+    I: Î
+    j: ĵ
+    J: Ĵ
+    o: ô
+    O: Ô
+    s: ŝ
+    S: Ŝ
+    u: û
+    U: Û
+    w: ŵ
+    W: Ŵ
+    'y': ŷ
+    'Y': Ŷ
+    z: ẑ
+    Z: Ẑ
+  ˉ:
+    ' ': ˉ
+    a: ā
+    A: Ā
+    å: ǡ
+    Å: Ǡ
+    ä: ǟ
+    Ä: Ǟ
+    æ: ǣ
+    Æ: Ǣ
+    e: ē
+    E: Ē
+    g: ḡ
+    G: Ḡ
+    i: ī
+    I: Ī
+    o: ō
+    O: Ō
+    ö: ȫ
+    Ö: Ȫ
+    u: ū
+    U: Ū
+    'y': ȳ
+    'Y': Ȳ
+longpress:
+  A: Á À Â
+  Ä: Æ
+  C: Ç Č Ć
+  D: Đ
+  E: É È Ê Ë Ě
+  G: Ǧ Ǥ
+  I: Ï Í Ì Î
+  K: Ǩ
+  L: Ł
+  'N': Ŋ Ń
+  O: Ó Ò Ô Õ
+  Ö: Ø Œ
+  R: Ř Ŕ
+  S: Š ẞ Ś
+  T: Ŧ Þ
+  U: Ú Ù Û
+  Z: Ž Ź Ǯ Ʒ
+  a: á à â
+  ä: æ
+  c: ç č ć
+  d: đ ð
+  e: é è ê ë ě
+  g: ǧ ǥ
+  i: ï í ì î
+  k: ǩ
+  l: ł
+  'n': ŋ ń
+  o: ó ò ô õ
+  ö: ø œ
+  r: ř ŕ
+  s: š ß ś
+  t: ŧ þ
+  u: ú ù û
+  z: ž ź ǯ ʒ
+space:
+  mac:
+    caps: '\u{A0}'
+    alt: '\u{A0}'
+    alt+shift: '\u{A0}'
+    caps+alt: '\u{A0}'
+    cmd+alt: '\u{A0}'
+strings:
+  space: twüskenruum
+  return: reygenwessel
+deadKeys:
+  mac:
+    default: ['`']
+    shift: [ˆ]
+    caps: ['`']
+    alt: [´, '-', ., ¨, ¯, ¸, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˛, ˜, ˝]
+    alt+shift: [ʔ, №]
+    caps+alt: [´, '-', ., ¨, ¯, ¸, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˛, ˜, ˝]
+    cmd+alt: [',', ¯, ¸, ƒ, ˙, ˜, ˝]
+  win:
+    default: ['`']
+    shift: ['~', ^]
+    caps: ['`']
+    caps+shift: ['~', ^]
+    alt: [’, №, ʔ, ‚, ˝, ˙, ˘, ˚, ˇ, ´]
+    alt+shift: [ƒ, ˀ, ˉ, '-', ., ˛, ¸, ¨]
+targets:
+  ios:
+    legacyName: nds-nl
+  android:
+    legacyName: nds-nl
+  win:
+    locale: nds-Latn-NL
+    legacyName: nds_NL-windows

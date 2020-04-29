@@ -1,20 +1,19 @@
 displayNames:
-  se: Vuollesaksigiella (Vuolleeatnamat)
-  en: Low Saxon (Netherlands)
-  fi: Alasaksi (Alankomaat)
-  'no': Nedersaksisk (Nederland)
-  da: Nedersaksisk (Nederlandene)
-  sv: Nedersaxiska (Nederländerna)
-  nds: Neddersaskys (Nederland)
-  nl: Nedersaksisch (Nederland)
-  de: Neddersassisch/Niederdeutsch (Niederlande)
-  fy: Nedersaksysk (Nederlân)
-  fr: Bas saxon (Pays-Bas)
-  es: Bajo sajón (Países Bajos)
-  it: Basso sassone (Paesi Bassi)
-  ru: Нижнесаксонский язык (Нидерланды)
-  tr: Aşağı saksonca (Hollanda)
-  jp: 低地ザクセン語（オランダ）
+  se: Vuollesaksigiella (Duiska)
+  en: Low Saxon (Germany)
+  fi: Alasaksi (Saksa)
+  'no': Nedersaksisk (Tyskland)
+  da: Nedersaksisk (Tyskland)
+  sv: Nedersaxiska (Tyskland)
+  nds: Neddersassisk (Duytskland)
+  nl: Nedersaksisch (Duitsland)
+  de: Neddersassisch/Niederdeutsch (Deutschland)
+  fy: Nedersaksysk (Dútslân)
+  fr: Bas saxon (Allemagne)
+  es: Bajo sajón (Alemania)
+  it: Basso sassone (Germania)
+  ru: Нижнесаксонский язык (Германия)
+  jp: 低地ザクセン語（ドイツ）
 modes:
   mac:
     default: |
@@ -359,10 +358,6 @@ transforms:
     'Y': Ẏ
     z: ż
     Z: Ż
-    ś: ṥ
-    Ś: Ṥ
-    š: ṧ
-    Š: Ṧ
   ¨:
     ' ': ¨
     a: ä
@@ -519,8 +514,6 @@ transforms:
     X: 'Ʒ\u{30C}'
     z: ž
     Z: Ž
-    ü: ǚ
-    Ü: Ǚ
     ʒ: ǯ
     Ʒ: Ǯ
   ƒ:
@@ -624,18 +617,6 @@ transforms:
     O: Ơ
     u: ư
     U: Ư
-  '~':
-    ' ': '~'
-    a: ã
-    A: Ã
-    i: ĩ
-    I: Ĩ
-    'n': ñ
-    'N': Ñ
-    o: õ
-    O: Õ
-    u: ũ
-    U: Ũ
   ^:
     ' ': ^
     a: â
@@ -664,6 +645,18 @@ transforms:
     'Y': Ŷ
     z: ẑ
     Z: Ẑ
+  '~':
+    ' ': '~'
+    a: ã
+    A: Ã
+    i: ĩ
+    I: Ĩ
+    'n': ñ
+    'N': Ñ
+    o: õ
+    O: Õ
+    u: ũ
+    U: Ũ
   ˉ:
     ' ': ˉ
     a: ā
