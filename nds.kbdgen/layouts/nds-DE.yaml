@@ -15,6 +15,7 @@ displayNames:
   it: Basso sassone (Germania)
   ru: Нижнесаксонский язык (Германия)
   jp: 低地ザクセン語（ドイツ）
+
 macOS:
   primary:
     layers:
@@ -72,6 +73,7 @@ macOS:
     alt+shift: ['ʔ', '№']
     cmd+alt: [',', '¯', '¸', 'ƒ', '˙', '˜', '˝']
     alt+caps: ['-', '.', '¨', '¯', '¸', 'ƒ', 'ʼ', 'ˀ', 'ˆ', 'ˇ', '˘', '˙', '˚', '˛', '˜', '˝']
+
 windows:
   config:
     locale: nds-Latn-DE
@@ -120,6 +122,7 @@ windows:
     caps+shift: ['`']
     alt: ['~', 'ʼ', ',']
     alt+shift: ['˝', '˙', '˘', '-', '.', '˛', '¸', '˚', '№', 'ʔ', 'ˀ', 'ˉ', 'ƒ', 'ˇ', '¨']
+
 transforms:
   '-':
     ' ': '-'
@@ -700,6 +703,7 @@ transforms:
     U: Ū
     'y': ȳ
     'Y': Ȳ
+
 longpress:
   A: Á À Â
   Ä: Æ
@@ -735,7 +739,7 @@ longpress:
   t: ŧ þ
   u: ú ù û
   z: ž ź ǯ ʒ
+
 keyNames:
   space: twüskenruum
   return: reygenwessel
-

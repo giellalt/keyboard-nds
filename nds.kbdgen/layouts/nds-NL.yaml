@@ -16,6 +16,7 @@ displayNames:
   ru: Нижнесаксонский язык (Нидерланды)
   tr: Aşağı saksonca (Hollanda)
   jp: 低地ザクセン語（オランダ）
+
 macOS:
   primary:
     layers:
@@ -73,6 +74,7 @@ macOS:
     alt+shift: ['ʔ', '№']
     cmd+alt: [',', '¯', '¸', 'ƒ', '˙', '˜', '˝']
     alt+caps: ['´', '-', '.', '¨', '¯', '¸', 'ƒ', 'ʼ', 'ˀ', 'ˆ', 'ˇ', '˘', '˙', '˚', '˛', '˜', '˝']
+
 windows:
   config:
     locale: nds-Latn-NL
@@ -121,6 +123,7 @@ windows:
     caps+shift: ['~', '^']
     alt: ['’', '№', 'ʔ', '‚', '˝', '˙', '˘', '˚', 'ˇ', '´']
     alt+shift: ['ƒ', 'ˀ', 'ˉ', '-', '.', '˛', '¸', '¨']
+
 transforms:
   '-':
     ' ': '-'
@@ -707,6 +710,7 @@ transforms:
     U: Ū
     'y': ȳ
     'Y': Ȳ
+
 longpress:
   A: Á À Â
   Ä: Æ
@@ -742,7 +746,7 @@ longpress:
   t: ŧ þ
   u: ú ù û
   z: ž ź ǯ ʒ
+
 keyNames:
   space: twüskenruum
   return: reygenwessel
-
